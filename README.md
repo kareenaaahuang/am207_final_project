@@ -25,7 +25,7 @@ A summary of our project may be found below; our report lives in `final_report.i
 
 100,000 swiss roll data points were made for the CSVAE experiment using `make_swiss_roll` from `sklearn.datasets`. Note that we reduced the number of data points to 20,000 for VAE and CVAE for clearer visualization of the outputs. We used the random state of 207 for training data, and 101 for test data.
 
-The generated data was 3-dimensional, and was split into 2 classes according to the first (y) dimension. Data points were labeled class 0 if y < 10, and 1 otherwise.
+The generated data was 3-dimensional, and was split into 2 classes according to the second dimension (y). Data points were labeled class 0 if y < 10, and 1 otherwise.
 
 #### Training
 
