@@ -7,15 +7,17 @@
 
 This repository hosts our implementation of the work by [Klys et al.](http://papers.nips.cc/paper/7880-learning-latent-subspaces-in-variational-autoencoders), _Learning Latent Subspaces in Variational Autoencoders (VAE)_. In particular, we compared the performance of regular VAE, conditional VAE (CVAE), and conditional subspace VAE (CSVAE) using the classic swiss roll dataset.
 
-**Regular VAE**
-![Regular VAE](images/vae.png)
+<u>**Regular VAE**
+
+<kbd>![Regular VAE](images/vae.png)
 
 
 **Conditional VAE**
-![Conditional VAE](images/cvae.png)
+<kbd>![Conditional VAE](images/cvae.png)
 
-**Conditional Subspace VAE**
-![Conditional Subspace VAE](images/csvae.png)
+
+**Conditional Subspace VAE**</u>
+<kbd>![Conditional Subspace VAE](images/csvae.png)
 
 A summary of our project may be found below; our report lives in `final_report.ipynb`. For detailed implementations of each variation of VAE, please refer to notebooks `vae_swiss_roll.ipynb`,`cvae_swiss_roll.ipynb`,`csvae_swiss_roll.ipynb` in `notebooks/`.
 
